@@ -15,6 +15,7 @@ Aplicativo de notas do curso Android Jetpack Compose: The Comprehensive Bootcamp
   <div>
   View Model
 </p>
+    <hr>
 <p align="left">
   💼 <strong>Melhorias em andamento:</strong>
   <div>
@@ -22,7 +23,6 @@ Aplicativo de notas do curso Android Jetpack Compose: The Comprehensive Bootcamp
   <div>
   Injeção de dependência com o Hilt.
 </p>
-![Screenshot_20230203_145211](https://user-images.githubusercontent.com/54047572/216675833-bd02d2e2-fad9-4e17-a535-e0a51d669f59.png)
-![Screenshot_20230203_145317](https://user-images.githubusercontent.com/54047572/216675843-1ef49654-6e71-4a3c-8bb7-14fc55e13013.png)
+    <hr>
 
 
