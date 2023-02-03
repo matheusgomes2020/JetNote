@@ -27,4 +27,4 @@ Aplicativo de notas do curso Android Jetpack Compose: The Comprehensive Bootcamp
 
 
 ![Screenshot_20230203_145317](https://user-images.githubusercontent.com/54047572/216677471-3095780f-f080-4033-b529-3f0ad5ebf923.png)
-![Screenshot_20230203_145317](https://user-images.githubusercontent.com/54047572/216677475-39f5027c-5bca-49e0-a892-6f769319a4d7.png)
+![Screenshot_20230203_145211](https://user-images.githubusercontent.com/54047572/216693494-399b466b-5aee-4912-ae93-04a86337e42d.png)
