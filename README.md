@@ -14,14 +14,12 @@ Aplicativo de notas do curso Android Jetpack Compose: The Comprehensive Bootcamp
   Jetpack Compose
   <div>
   View Model
-</p>
-    <hr>
-<p align="left">
-  💼 <strong>Melhorias em andamento:</strong>
-  <div>
+    <div>
   Persistência de data com room.
   <div>
   Injeção de dependência com o Hilt.
+    <div>
+    Coroutines.
 </p>
     <hr>
 
