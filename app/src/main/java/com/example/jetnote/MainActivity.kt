@@ -10,6 +10,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
@@ -30,7 +31,8 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
 
-                    val noteViewmodel: NoteViewModel by viewModels()
+                    val noteViewmodel = viewModel<NoteViewModel>() //also works
+                    //val noteViewmodel: NoteViewModel by viewModels()
                    NotesApp(noteViewmodel)
                 }
             }
@@ -39,9 +41,9 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun NotesApp( noteViewModel: NoteViewModel = viewModel() ) {
+fun NotesApp( noteViewModel: NoteViewModel ) {
 
-    val noteslist = noteViewModel.getAllNotes()
+    val noteslist = noteViewModel.noteList.collectAsState().value
 
     NoteScreen(notes = noteslist,
 

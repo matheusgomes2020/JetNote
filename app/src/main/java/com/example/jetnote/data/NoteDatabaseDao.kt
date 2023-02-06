@@ -17,7 +17,7 @@ interface NoteDatabaseDao {
             Flow<List<Note>>
 
     @Query("SELECT * from notes_tbl where id =:id")
-    suspend fun getNoteByid(id: String): Note
+    suspend fun getNoteById(id: String): Note
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(note: Note)
@@ -30,5 +30,6 @@ interface NoteDatabaseDao {
 
     @Delete
     suspend fun deleteNote(note: Note)
+
 
 }
